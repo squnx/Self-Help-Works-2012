@@ -1,0 +1,39 @@
+/* CSS Sprite Menu */
+ul#menu{margin:0; padding:0; list-style:none; clear:both; float:right;}
+#menu li{overflow:hidden; text-indent:-9999px; display:inline; float:left;}
+#menu li a{background:url('/assets/images/training_nav.png') no-repeat; width:100%; height:100%; display:block;}
+			
+#menu li.nav01            {width:60px; height:80px;}
+#menu li.nav01 a          {background-position:-94px -90px;}
+#menu li.nav01 a:hover    {background-position:-94px -180px;}
+#menu li.nav01 a.selected {background-position:-94px 0;}
+
+#menu li.nav02            {width:60px; height:80px;}
+#menu li.nav02 a          {background-position:-156px -90px;}
+#menu li.nav02 a:hover    {background-position:-156px -180px;}
+#menu li.nav02 a.selected {background-position:-156px 0;}
+
+#menu li.nav03            {width:60px; height:80px;}
+#menu li.nav03 a          {background-position:-218px -90px;}
+#menu li.nav03 a:hover    {background-position:-218px -180px;}
+#menu li.nav03 a.selected {background-position:-218px 0;}
+
+#menu li.nav04            {width:60px; height:80px;}
+#menu li.nav04 a          {background-position:-280px -90px;}
+#menu li.nav04 a:hover    {background-position:-280px -180px;}
+#menu li.nav04 a.selected {background-position:-280px 0;}
+
+#menu li.nav05            {width:60px; height:80px;}
+#menu li.nav05 a          {background-position:-342px -90px;}
+#menu li.nav05 a:hover    {background-position:-342px -180px;}
+#menu li.nav05 a.selected {background-position:-342px 0;}
+
+#menu li.nav06            {width:60px; height:80px;}
+#menu li.nav06 a          {background-position:-404px -90px;}
+#menu li.nav06 a:hover    {background-position:-404px -180px;}
+#menu li.nav06 a.selected {background-position:-404px 0;}
+
+#menu li.nav07            {width:60px; height:80px;}
+#menu li.nav07 a          {background-position:-466px -90px;}
+#menu li.nav07 a:hover    {background-position:-466px -180px;}
+#menu li.nav07 a.selected {background-position:-466px 0;}

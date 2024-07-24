@@ -1,0 +1,8 @@
+.globalVideo
+{
+	background-image:url(../images/globalVideo_frame.png);
+	postition: relative;
+	float: left;
+	width:655px;
+	height:404px;
+}

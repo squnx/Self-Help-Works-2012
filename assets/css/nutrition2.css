@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** NUTRITION CSS ****/
+
+/** HOME **/
+.divPromo{position: relative;
+	float: left;
+	width: 901px;
+	height:312px;
+}
+div#divPromoContent{border: 1px solid black;
+}
+div#divEatHealthStayFit{background-image:url(../images/eathealthystayfit.png);
+	position: relative;
+	float: left;
+	height: 52px;
+	width: 283px;
+}
+div#divNutrMenu{
+	position: relative;
+	float: right;
+	height: 55px;
+	width: 600px;
+}
+div#divNutrSubMenu{
+	position: relative;
+	float: left;
+	height: 55px;
+	width: 555px;
+}
+div#divNutrSearch{
+	position: relative;
+	float: right;
+	padding-top: 18px;
+	padding-right: 50px;
+	text-align: right;
+	height: 55px;
+	width: 260px;
+}
+.divGrid{
+	position: relative;
+	float: left;
+	padding-left: 100px;
+}
+
+/** RECIPE VIEW **/
+.divRecipe{
+	position: relative;
+    float: left;
+	background-repeat: no-repeat;
+	width:674px;
+}
+.divRecipeContent{
+	position: relative;
+    float: left;
+	width: 660px;
+}
+.divRecipeSocial{
+	position: relative;
+    float: right;
+	background-image:url(../images/recipe_social.png);
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 288px;
+}
+.divRecipeSocialContent{
+	width: 660px;
+	margin: 20px;
+	width: 85%;
+	height: 100%;
+}
+.divRecipeLike{
+	position: relative;
+    float: right;
+	left: 18px;
+	width: 225px;
+	height: 100%;
+}
+.divIngredientsBar{
+	position: relative;
+    float: left;
+	width: 656px;
+}
+.divDirectionsBar{
+	position: relative;
+    float: left;
+	width: 656px;
+}
+
+/** FOODLOG **/
+.divNewMenu{
+	background-image:url(../images/menu_planner_new_menu.png);
+	width: 673px;
+	height: 859px;
+	position: relative;
+	float: left;
+}
+.divNewMenuContent{
+	width: 651px;
+	height: 805px;
+	position: relative;
+	float: left;
+	margin: 10px;
+	margin-top: 45px;
+}
+.divNewMenuNutrInfo{
+	background-image:url(../images/menu_planner_nutr_info.png);
+	width: 220px;
+	height: 405px;
+	position: relative;
+	float: left;
+}
+.divNewMenuNutrInfoContent{
+	width: 195px;
+	height: 353px;
+	position: relative;
+	float: left;
+	margin: 10px;
+	margin-top: 40px;
+	margin-left: 15px;
+}
+/* MENU PLANNER */
+.divMenuSections{
+	background-image:url(../images/menu_planner_menu.png);
+	position: relative;
+	float: left;
+	width: 623px;
+	height: 347px;
+	top: -650px;
+	left: 13px;
+}
+.divMenuSectionsContent{
+	position: relative;
+	float: left;
+	width: 623px;
+	height: 347px;
+}
+
+/* Print Results */
+.divPrintOptions{
+	background-image:url(../images/print_options.png);
+	position: relative;
+	float: left;
+	width: 161px;
+	height: 287px;
+}
+.divPrintOptions{
+	position: relative;
+	float: left;
+	width: 161px;
+}
+div#divPrintFormat{
+	position: relative;
+	float: left;
+	margin:15px;
+	margin-top: 45px;
+}
+div#divOptions{
+	position: relative;
+	float: left;
+	margin:15px;
+	margin-top: 35px;
+}
+div#divPrintButton{
+	position: relative;
+	float: left;
+	margin:13px;
+	margin-top: 10px;
+	height: 48px;
+	width: 135px;
+	background-image:url(../images/button_print.png);
+}
+
+/* Resipe Results */
+.divRecipeResult{
+	background-image:url(../images/recipe_whiteborder.png);
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 603px;
+}
+.divRecipePhoto{
+	background-image:url(../images/recipe_thumbnail.png);
+	position: relative;
+	float: left;
+	width: 246px;
+	height: 126px;
+	top: 6px;
+	left: 7px;
+}
+.divRecipeDescription{
+	position: relative;
+	float: left;
+	top: 10px;
+	left: 7px;
+}
+.divRecipeNutrition{
+	background-image:url(../images/recipe_count.png);
+	position: relative;
+	float: left;
+	width: 238px;
+	height: 52px;
+	top: 6px;
+	left: 7px;
+	margin-bottom: 9px;
+}
+.divRecipeIngredientsNutrition{
+	position: relative;
+	float: left;
+	width: 241px;
+	height: 305px;
+	top: 20px;
+	left: 7px;
+	border: 1px solid black;
+}
+.recipeTitle{
+	font-size: 12px; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color: #464646;
+}
+
+div#divCals{
+	font-size: 18px; 
+	font-family: "Throw IE Bold", "Throw Bold", Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	margin-top: 9px;
+	width: 48px;
+	height: 24px;
+	text-align: center;
+}
+div#divFat{
+	font-size: 18px; 
+	font-family: "Throw IE Bold", "Throw Bold", Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	margin-top: 9px;
+	width: 47px;
+	height: 24px;
+	text-align: center;
+}
+div#divSodium{
+	font-size: 18px; 
+	font-family: "Throw IE Bold", "Throw Bold", Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	margin-top: 9px;
+	width: 47px;
+	height: 24px;
+	text-align: center;
+}
+div#divSugar{
+	font-size: 18px; 
+	font-family: "Throw IE Bold", "Throw Bold", Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	margin-top: 9px;
+	width: 47px;
+	height: 24px;
+	text-align: center;
+}
+.description{
+	font-size: 12px; 
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #707070;
+	font-weight: bold;
+}
+
+/* Recipe Home */
+.divRecipeSearchContainer{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 233px;
+	background-image:url(../images/nutrition_recipe_search_bg.png);
+}
+.divRecipegrid{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-left: 17px;
+}
+
+/* Ingredient View Home */
+.divNutritionFacts{
+	background-image:url(../images/nutrition_box.png);
+	position: relative;
+	float: left;
+	width: 192px;
+	height: 321px;
+}
+.divNutritionFactsContent{
+	position: relative;
+	float: left;
+	height: 233px;
+	margin: 15px;
+}

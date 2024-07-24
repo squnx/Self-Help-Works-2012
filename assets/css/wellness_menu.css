@@ -1,0 +1,49 @@
+/* CSS Sprite Menu */
+ul#menu{margin:0; padding:0; list-style:none; clear:both; float:right;}
+#menu li{overflow:hidden; text-indent:-9999px; display:inline; float:left;}
+#menu li a{background:url('/assets/images/wellness_nav.png') no-repeat; width:100%; height:100%; display:block;}
+			
+#menu li.nav01            {width:64px; height:80px;}
+#menu li.nav01 a          {background-position:-94px -90px;}
+#menu li.nav01 a:hover    {background-position:-94px -180px;}
+#menu li.nav01 a.selected {background-position:-94px 0;}
+
+#menu li.nav02            {width:68px; height:80px;}
+#menu li.nav02 a          {background-position:-158px -90px;}
+#menu li.nav02 a:hover    {background-position:-158px -180px;}
+#menu li.nav02 a.selected {background-position:-158px 0;}
+
+#menu li.nav03            {width:67px; height:80px;}
+#menu li.nav03 a          {background-position:-226px -90px;}
+#menu li.nav03 a:hover    {background-position:-226px -180px;}
+#menu li.nav03 a.selected {background-position:-226px 0;}
+
+#menu li.nav04            {width:63px; height:80px;}
+#menu li.nav04 a          {background-position:-293px -90px;}
+#menu li.nav04 a:hover    {background-position:-293px -180px;}
+#menu li.nav04 a.selected {background-position:-293px 0;}
+
+#menu li.nav05            {width:63px; height:80px;}
+#menu li.nav05 a          {background-position:-355px -90px;}
+#menu li.nav05 a:hover    {background-position:-355px -180px;}
+#menu li.nav05 a.selected {background-position:-355px 0;}
+
+#menu li.nav06            {width:62px; height:80px;}
+#menu li.nav06 a          {background-position:-417px -90px;}
+#menu li.nav06 a:hover    {background-position:-417px -180px;}
+#menu li.nav06 a.selected {background-position:-417px 0;}
+
+#menu li.nav07            {width:62px; height:80px;}
+#menu li.nav07 a          {background-position:-478px -90px;}
+#menu li.nav07 a:hover    {background-position:-478px -180px;}
+#menu li.nav07 a.selected {background-position:-478px 0;}
+
+#menu li.nav08            {width:66px; height:80px;}
+#menu li.nav08 a          {background-position:-539px -90px;}
+#menu li.nav08 a:hover    {background-position:-539px -180px;}
+#menu li.nav08 a.selected {background-position:-539px 0;}
+
+#menu li.nav09            {width:59px; height:80px;}
+#menu li.nav09 a          {background-position:-605px -90px;}
+#menu li.nav09 a:hover    {background-position:-605px -180px;}
+#menu li.nav09 a.selected {background-position:-605px 0;}

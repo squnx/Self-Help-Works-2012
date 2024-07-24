@@ -1,0 +1,162 @@
+/** Member Profile Layout **/
+
+.divQuote
+{
+	background-image:url(../images/quote.png);
+	height: 117px;
+	width: 912px;
+	position: relative;
+	float: left;
+	top: -13px;
+	z-index:3;
+}
+.divFoodLog
+{
+	width: 901px;
+	float: left;
+}
+.divQuoteContent
+{
+    height: 65px;
+	width: 850px;
+    position: absolute;
+	float: left;
+	top: 0px;
+	margin: 35px;
+}
+.divMiniboxes
+{
+	height: 174px;
+	position: relative;
+	float: left;
+}
+.divInspiration
+{
+	background-image:url(../images/inspiration.png);
+	height: 173px;
+	width: 241px;
+	float: left;
+	position: relative;
+}
+.divInspirationContent
+{
+    height: 100px;
+	width: 200px;
+    position: absolute;
+	float: left;
+	top: 30px;
+	margin: 20px;
+}
+.divPhotoCloud
+{
+	background-image:url(../images/photocloud.png);
+	height: 173px;
+	width: 242px;
+	float: left;
+	position: relative;
+}
+.divPhotoCloudContent
+{
+    position: absolute;
+	float: right;
+	width: 229px;
+	height: 130px;
+	top:37px;
+	left: 7px;
+}
+.divLog
+{
+	background-image:url(../images/logs.png);
+	height: 173px;
+	width: 415px;
+	float: right;
+	position: relative;
+}
+.divlogCol1, .divlogCol2, .divlogCol3
+{
+	margin-top:50px;
+	margin-left:25px;
+	position: relative;
+	float: left;
+	height: 80px;
+	width: 110px;
+}
+.divlogRow2
+{
+	position: relative;
+	float: right;
+	height: 35px;
+	width: 380px;
+	margin-right: 17px;
+}
+.div4col1read
+{
+    position: relative;
+    float: left;
+    background-image: url('../images/readthis.png');
+    background-repeat: no-repeat;
+    width: 164px;
+    height: 141px;
+}
+.div4col4arrow
+{
+    position: relative;
+	float: right;
+	background-image: url('../images/this_arrow.png');
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 164px;
+}
+.div4col1people
+{
+    position: relative;
+    float: left;
+    background-image: url('../images/peoplethis.png');
+    background-repeat: no-repeat;
+    width: 164px;
+    height: 141px;
+}
+.div4col1watch
+{
+    position: relative;
+    float: left;
+    background-image: url('../images/watchthis.png');
+    background-repeat: no-repeat;
+    width: 164px;
+    height: 141px;
+}
+.div4col2read, .div4col3read, .div4col2people, .div4col3people, .div4col2watch, .div4col3watch
+{
+    
+    position: relative;
+	float: left;
+	height: 100%;
+	width: 300px;
+	margin: 20px;
+}
+.divFeature
+{
+	height: 415px;
+	width: 660px;
+	position: relative;
+	float:right;
+	top: 5px;
+	left: -14px;
+}
+.divFeatureTop
+{
+	background-image:url(../images/feature_top.png);
+	background-repeat: no-repeat;
+	height: 96px;
+	width: 660px;
+	position: relative;
+	float:right;
+}
+.divFeatureTab
+{
+    position: relative;
+	height: 1px;
+	width: 312px;
+	float: left;
+	z-index:1;
+}

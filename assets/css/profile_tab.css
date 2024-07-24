@@ -1,0 +1,83 @@
+#slideout
+{
+    position:relative;
+    left:215px;
+	width: 50px;
+	height: 397px;
+	z-index:1;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+#slideout_inner
+{
+    position:relative;
+    top:-397px;
+    left:-115px;
+	width: 115px;
+	height: 397px;
+	z-index:1;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	text-align: left;
+}
+#slideout:hover
+{
+	left: 280px;
+}
+#slideout:hover #slideout_inner
+{
+	left: 165;
+}
+/* root element for scrollable */
+.vertical {  
+	/* required settings */
+	position:relative;
+	overflow:hidden;	
+	/* vertical scrollers have typically larger height than width */	
+	height: 335px;	 
+	width: 115px;
+}
+/* root element for scrollable items */
+.items {
+	position:absolute;
+	/* this time we have very large space for height */	
+	height:335px;	
+	margin: 0px;
+}
+/* single scrollable item */
+.item {
+	height:67px;
+}
+/* elements inside single item */
+.item img {
+	height:67px;
+	width:115px;
+	border:0px;
+}
+/* the action buttons above the scrollable */
+#actions {
+	width:115px;
+	height:31px;
+}
+#actions a {
+	font-size:11px;		
+	cursor:pointer;
+	color:#666;
+}
+#actions a:hover {
+	text-decoration:underline;
+	color:#000;
+}
+.disabled {
+	visibility:visible;		
+}
+.prev {
+	background:url(../images/tools_up.png) no-repeat;
+}	
+.next {
+	background:url(../images/tools_down.png) no-repeat;
+}	

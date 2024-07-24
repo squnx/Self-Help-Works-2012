@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** FITNESS CSS ****/
+
+/* ExerciseView */
+.divExerciseStats{
+	position: relative;
+	float: left;
+	background-image:url(../images/bulls_eye.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	padding: 20px;
+}
+.exerciseType{
+	color: #555555;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.exerciseValue{
+	color: #33ced4;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 26px;
+}
+.exerciseCopy{
+	color: #555555;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+/* Exercise Log */
+.divExerciseLogMove{
+	background-image:url(../images/exercise_log_move.png);
+	position: relative;
+	float: left;
+	height: 172px;
+	width: 658px;
+}
+.divExerciseLogMoveContent{
+	position: relative;
+	float: left;
+	top: 20px;
+	margin: 25px;
+}
+.divExerciseLogStatContent{
+	position: relative;
+	float: left;
+	top: 20px;
+	margin: 25px;
+}
+.divExerciseLogStat{
+	background-image:url(../images/exercise_log_stats.png);
+	position: relative;
+	float: left;
+	height: 173px;
+	width: 238px;
+}

@@ -1,0 +1,169 @@
+/** TABS RECIPE OVERVIEW **/
+.tabs
+{
+	width: 660px;
+}
+ul.tabNavigation
+{
+    background: url(../images/tab1_bg.png) no-repeat;
+    list-style:none;
+    margin:0 !important;
+    padding:0;
+    height:39px;
+    width:660px;
+}
+ul.tabNavigation li {
+    float:left;
+    text-indent:0;
+    padding:0;
+    margin:0 !important;
+    list-style-image:none !important;
+}
+ul.tabNavigation li a {
+    font-size:12px;
+	font-weight:bold;
+    display:block;
+    height: 11px;
+    text-align:center;
+    text-decoration:none;
+    color:#fff;
+    padding:13px 16px 15px 16px;
+    margin:0px;
+    position:relative;
+}
+UL.tabNavigation li a.selected {
+    background: url(../images/tab1_arrow.png) no-repeat;
+	cursor:default !important;
+    color:#fff !important;
+}
+ul.tabNavigation li a:active {
+    outline:none;
+}
+ul.tabNavigation li a:hover {
+	color:#ddd;
+}
+
+/** RECIPE OVERVIEW CONTENTS Left370px/Right290px **/
+.tabs370L
+{
+	position: relative;
+	background-image:url(../images/tabs370L.png);
+	padding:15px 20px 5px 20px;
+	width:330px;
+	height:220px;
+	float:left;
+}
+.tabs370L p {
+	font-size:14px;
+	font-family:Century Gothic;
+}
+.tabs290R
+{
+	position: relative;
+	background-image:url(../images/tabs290R.png);
+	padding:15px 15px 5px 15px;
+	width: 260px;
+	height:220px;
+	float:right;
+}
+.tabsReviews
+{
+	position: relative;
+	background-image:url(../images/tabs660.png);
+	padding:15px 20px 5px 20px;
+	width:620px;
+	height:220px;
+	float:left;
+}
+
+/** SLIDES SHOW Right290px **/
+/* Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash */
+.slides_container {
+	width:260px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	z-index:1;
+}
+
+/* Each slide Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block */
+.slides_container a {
+	width:260px;
+	height:150px;
+	display:block;
+}
+.slides_container a img {
+	display:block;
+}
+
+/* Next/prev buttons */
+#slides .prev {
+	position:relative;
+	top:10px;
+	left:190px;
+	width:31px;
+	height:31px;
+}
+#slides .next {
+	position:relative;
+	top:10px;
+	left:190px;
+	width:31px;
+	height:31px;
+}
+#slides2 .prev {
+	position:relative;
+	top:10px;
+	left:190px;
+	width:31px;
+	height:31px;
+}
+#slides2 .next {
+	position:relative;
+	top:10px;
+	left:190px;
+	width:31px;
+	height:31px;
+}
+
+/* Pagination */
+.pagination {
+	margin:0px auto 0;
+	position:relative;
+	top:-15px;
+	width:100px;
+}
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/* Anchors */
+a:link,a:visited {
+	color:#599100;
+	text-decoration:none;
+}
+a:hover,a:active {
+	color:#599100;
+	text-decoration:underline;
+}

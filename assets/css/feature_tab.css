@@ -1,0 +1,33 @@
+#slideoutFeature
+{
+    position:relative;
+	top: -25px;
+    left:595px;
+	width: 312px;
+	height: 30px;
+	z-index:1;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+#slideoutFeature_inner
+{
+    position:relative;
+	width: 312px;
+	height: 53px;
+	z-index:1;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	text-align: left;
+}
+#slideoutFeature:hover
+{
+	top: -75px;
+}
+#slideoutFeature:hover #slideout_inner
+{
+	left: 0;
+}

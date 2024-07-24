@@ -1,0 +1,12 @@
+.select {
+	width: 623px;
+	height: 347px;
+	background-image: url(../images/menu_planner_menu.png);
+	padding: 40px 10px 20px 20px;
+	border: 0;
+}
+.a option {
+	height: 60px;
+}
+
+ 

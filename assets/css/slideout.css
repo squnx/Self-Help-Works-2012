@@ -1,0 +1,11 @@
+.slide-out-div {
+	width: 80px;
+	height: 393px;
+	}
+
+#slide-out-div {
+    position:relative;
+	left:187px;
+	top:-16px;
+	z-index:1;
+	}

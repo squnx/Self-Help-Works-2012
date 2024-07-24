@@ -1,0 +1,101 @@
+/* ---- Some Resets ---- */
+p,
+table, caption, td, tr, th {
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	}
+/* ---- Table ---- */
+table
+{
+	border-collapse:collapse;
+	margin-bottom:20px;
+	width:901px;
+	font:12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+caption
+{
+	text-align:left;
+	font-size:15px;
+	padding-bottom:10px;
+}
+table td,
+table th
+{
+	padding:5px;
+}
+thead th
+{
+	background:#e0f8fa;
+	border-left:1px solid #7cc4ca;
+	color:#1d9ca8;
+	font-weight:bold;
+}
+tbody th,
+tfoot th
+{
+	text-align:left;
+	padding-left:15px;
+}
+tbody td,
+tfoot td
+{
+	text-align:center;
+	border-left:1px solid #7cc4ca;
+	font-style:italic;
+}
+.topLeft
+{
+	text-align:left;
+	border-left:0px;
+	padding:12px 12px 24px 12px;
+	border-left:0px;
+}
+.topRight
+{
+	text-align:right;
+	padding:12px 12px 24px 12px;
+	border-left:0px;
+}
+.food
+{
+	text-align:left;
+	padding-left:15px;
+	border-left:0px;
+}
+.bg0
+{
+	border-left:0px;
+}
+.bg00
+{
+	background:#ffffff;
+	border-left:0px;
+}
+.bg1
+{
+	background:#b5e2e6;
+}
+.bg2
+{
+	background:#e0f8fa;
+}
+tfoot th
+{
+	background:#cff6d5;
+}
+.dailyTotals
+{
+	position: relative;
+	top:-12px;
+	left:-16px;
+	height:59px;
+}
+tfoot td
+{
+	background:#cff6d5;
+	font-weight:bold;
+}
+tbody tr.odd td { 
+	background:#fff;
+}

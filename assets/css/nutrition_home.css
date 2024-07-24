@@ -1,0 +1,39 @@
+/**** NUTRITION HOME CSS ****/
+
+/**** tabNutrMenu ****/
+.tabNutrMenu div {clear:left;}
+.tabNutrMenu ul {float:left; width:600px; font:13px Century Gothic; font-weight:bold;}
+.tabNutrMenu li {float:left; list-style:none;}
+.tabNutrMenu li a {display:block; padding:4px 10px; height:15px; color:#656464; text-decoration:none;}
+.tabNutrMenu li a:hover {background:url(/assets/images/tabNutrMenu_hover.png) no-repeat; background-position:center bottom; color:#000; height:21px;}
+.tabNutrMenu li a.selected {background:url(/assets/images/tabNutrMenu_bg.png) no-repeat; height:36px;}
+
+/**** tabNutrSubMenu ****/
+.tabNutrSubMenu div {clear:left;}
+.tabNutrSubMenu ul {float:left; width:555px; font:11px Century Gothic; font-weight:bold; line-height:28px;}
+.tabNutrSubMenu li {float:left; list-style:none;}
+.tabNutrSubMenu li a {display:block; padding:4px 15px; height:15px; color:#27a1ac; text-decoration:none;}
+.tabNutrSubMenu li a:hover { color:#008888; height:21px;}
+.tabNutrSubMenu li a.selected {background:url(/assets/images/tabNutrSubMenu_bg.png) no-repeat;background-position:center; height:30px;}
+.tabNutrSubMenuSub div {display:none; background:#fff; border-top:1px solid #555; border-bottom:1px solid #888; padding:8px; *padding-top:4px; letter-spacing:1px;}
+
+/**** tabNutrContent ****/
+.ui-tabs .ui-tabs-nav 				{list-style: none; position: relative; padding: 2px 2px 0; top: 1px; z-index: 1000;}
+.ui-tabs .ui-tabs-nav li 			{position: relative; float: left; border: 1px solid #eee; margin: 0 2px -1px 0; font:11px Century Gothic; font-weight:bold; color: #27a1ac;}
+.ui-tabs .ui-tabs-nav li a 			{float: left; text-decoration: none; padding: 5px 10px;}
+.ui-tabs .ui-tabs-nav 
+li.ui-tabs-selected 				{background:url(/assets/images/tabNutrContent_select.png); border: 1px solid #1ca1ac; color: #fff;}
+.ui-tabs .ui-tabs-nav 
+li.ui-tabs-selected a, .ui-tabs 
+.ui-tabs-nav li.ui-state-disabled a, 
+.ui-tabs .ui-tabs-nav 
+li.ui-state-processing a 			{ cursor: text; }
+.ui-tabs .ui-tabs-nav li a, 
+.ui-tabs.ui-tabs-collapsible 
+.ui-tabs-nav li.ui-tabs-selected a  { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel 			{display: block; border-width: 0; position: relative;}
+.ui-tabs .ui-tabs-hide 				{ display: none !important; }
+
+a.mover 							{padding: 6px 12px; position: absolute; font:11px Century Gothic; font-weight:bold; color: #27a1ac; text-decoration: none;}
+.next-tab 							{visibility:hidden; bottom: -550px; right: 25px;}
+.prev-tab 							{visibility:hidden; bottom: -550px; right: 105px;}

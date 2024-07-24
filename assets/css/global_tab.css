@@ -1,0 +1,19 @@
+/* Menu Tabs */
+ul#tabsMenu {list-style-type: none; width:600px; font:13px Century Gothic; font-weight:bold; text-align:right; position:relative; right:80px;}
+ul#tabsMenu li {display: inline;}
+ul#tabsMenu li a {padding:5px 10px 14px 10px; color:#656464; text-decoration:none;}
+ul#tabsMenu li a:hover {background:url(/assets/images/tabNutrMenu_hover.png) no-repeat; background-position:center bottom; color:#000;}
+ul#tabsMenu li a.selected {background:url(/assets/images/tabNutrMenu_bg.png) no-repeat; height:36px;}
+div.tabContent {}
+div.tabContent.hide {display: none;}
+
+/* SubMenu Tabs */
+.tabsSub {position: relative; min-height: 600px; /* This part sucks */}
+.tabSub {float: left;}
+.tabSub label {padding:4px 15px; color:#27a1ac; font:11px Century Gothic; font-weight:bold; position:relative; top:-22px; cursor:pointer; text-decoration: none;}
+.tabSub [type=radio] {display: none;}
+.content {position: absolute; top: 28px; left: 0; background: white; right: 0; bottom: 0; overflow: hidden;}
+.content > * {opacity: 0;}
+[type=radio]:checked ~ label {background: #eee; z-index: 2;}
+[type=radio]:checked ~ label ~ .content {z-index: 1;}
+[type=radio]:checked ~ label ~ .content > * {opacity: 1;}

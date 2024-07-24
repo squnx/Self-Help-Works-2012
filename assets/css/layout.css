@@ -1,0 +1,602 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/** GENERAL LAYOUT **/
+.divPage{
+width: 100%;
+	margin: 0 auto;
+}
+.divSite{
+width: 901px;
+	margin: 0 auto;
+}
+
+/** REUSEABLE ELEMENTS **/
+.divContainer{
+height: 100%;
+    width: 100%;
+    position: relative;
+	float: left;
+	vertical-align: top;
+	text-align: left;
+}
+.divClear{
+clear: both;
+	width: 100%;
+	height: 1px;
+}
+.divLine{
+background-image:url(../images/line.png);
+    height:4px;
+    width: 907px;
+    position: relative;
+    float: left;
+}
+.divSpace15{
+position: relative;
+	float: left;
+	height: 15px;
+	width: 100%;
+}
+.divSpaceV12{
+    position: relative;
+	float: left;
+	height: 1px;
+	width: 6px;
+}
+hr#grey{
+    margin-top: 20px;
+	margin-bottom: 20px;
+	color: #EEE;
+	height: 1px;
+}
+.margin10{
+    margin: 10px;
+}
+img.center {
+    display: block; 
+	margin-left: auto;
+	margin-right: auto; 
+}
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+.floatCenter{
+    margin: 0 auto;
+}
+
+/* GRID ELEMENTS */
+.divGridHeader{
+    position: relative;
+	float: left;
+	width: 400px;
+}
+.divGridTopMenu{
+    position: relative;
+}
+.divGridFrame{
+    position: relative;
+	float: left;
+	width: 192px;
+	height: 174px;
+	background-image:url(../images/grid_box.png);
+}
+.divGridFrame img{
+    border: 0px;
+}
+.divGridContent{
+    position: relative;
+	float: left;
+	width: 180px;
+	height: 130px;
+	margin-top:6px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:6px;
+	font-family: century gothic, Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+.divGridContentText{
+    margin-top:4px;
+	white-space:nowrap;
+	width:15em;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+/** HEADER **/
+.divHeader{
+    background-image:url(../images/header_bar.png);
+	width: 901px;
+	height: 10px;
+	margin-bottom: 5px;
+    position: relative;
+	float:none;
+}
+.divHeader2{
+    width: 400px;
+	height: 62px;
+    position: relative;
+	float: right;
+}
+.divHeadercol1{
+    width: 38%;	position: relative;	float: left;
+}
+.divHeadercol2{
+    width: 58%;	position: relative;	float: right;
+}
+.divLogo{
+    position:relative;
+	float:left;
+	height: 81px;
+	width: 259px;
+	background-image:url(../images/logo_shw.png);
+	background-repeat:no-repeat;
+}
+.divMembercol{
+    width: 60%;	position: relative;	float: left;;
+	z-index:6;
+}
+.divSearchcol{
+    width: 40%;	position: relative;	float: right;
+}
+.divTopProfile{
+    position:relative;
+	float: right;
+	height: 100px;
+	width: 50%;
+	text-align: right;
+	background-repeat:no-repeat;
+}
+.divSearch{
+    position: relative;
+	width:100%;
+	float: right;
+	height: 63px;
+	width: 240px;
+	padding-top: 5px;
+}
+.divTopMenu{
+	width: 321px;
+	height: 28px;
+	padding:0;
+    margin:0 !important;
+	position: relative;
+	float:right;
+	bottom: -5px;
+	border: 0px;
+}
+.divMenu{
+    background-repeat:no-repeat;
+	height: 50px;
+	width: 901px;
+	position: relative;
+	float: left;
+	z-index:5;
+}
+.divPageHeader{
+    width: 100%;
+	position: relative;
+	float: left;
+}
+.divPageHeaderCol1{
+    width: 50%;
+	position: relative;
+	float: left;
+}
+.divPageHeaderCol2{
+    width: 50%;
+	position: relative;
+	float: right;
+	text-align: right;
+}
+
+/** PRESET DIVS **/
+.div2col590left{
+    width: 580px; position: relative; float: left;
+}
+.div2col590right{
+    width: 580px; position: relative; float: right;
+}
+.div2col660left{
+    width: 660px; position: relative; float: left;
+}
+.div2col660right{
+    width: 660px; position: relative; float: right;
+}
+.div2col310left{
+    width: 310px; position: relative; float: left;
+}
+.div2col310right{
+    width: 310px; position: relative; float: right;
+}
+.div2col240left{
+    width: 230px; position: relative; float: left;
+}
+.div2col240right{
+    width: 230px; position: relative; float: right;
+}
+.div2col670left{
+    width: 680px; position: relative; float: left;
+}
+.div2col670right{
+    width: 680px; position: relative; float: right;
+}
+.div2col230left{
+    width: 210px; position: relative; float: left;
+}
+.div2col230right{
+    width: 210px; position: relative; float: right;
+}
+/* 2 Columns */
+.div2col1{
+    width: 48%;	position: relative;	float: left; text-align: left;
+}
+.div2col2{
+    width: 48%;	position: relative;	float: left; text-align: left;
+}
+/* 3 Columns */
+.div3col1{
+    width: 33%;	position: relative;	float: left;
+}
+.div3col2{
+    width: 33%;	position: relative;	float: left;
+}
+.div3col3{
+    width: 33%;	position: relative;	float: right;
+}
+/* 4 Columns Center Grid */
+.div4col1{
+    width: 25%;	position: relative;	float: left;
+}
+.div4col2{
+    width: 25%;	position: relative;	float: left; margin: 0 auto;
+}
+.div4col3{
+    width: 25%;	position: relative;	float: left; margin: 0 auto;
+}
+.div4col4{
+    width: 25%;	position: relative;	float: left; margin: 0 auto;
+}
+/* Percentage Columns */
+.div2col30left{
+    width: 30%;	position: relative;	float: left;
+}
+.div2col30right{
+    width: 28%;	position: relative;	float: right;
+}
+.div2col40left{
+    width: 40%;	position: relative;	float: left;
+}
+.div2col40right{
+    width: 40%;	position: relative;	float: right;
+}
+.div2col60right{
+    width: 60%;	position: relative;	float: right;
+}
+.div2col60left{
+    width: 60%;	position: relative;	float: left;
+}
+.div2col70left{
+    width: 70%;	position: relative;	float: left;
+}
+.div2col70right{
+    width: 70%;	position: relative;	float: right;
+}
+.div2col2, #footerSearch{
+    width: 50%;
+	position: relative;
+	float: right;
+	text-align: right;
+}
+
+/** FOOTER **/
+.divFooterMenu{
+    background-image:url(../images/footer_box.png);
+	height: 122px;
+	width: 903px;
+	position: relative;
+	float: left;
+}
+.divSocial{
+    position: relative;
+	float: left;
+	height: 50px;
+	width:901px;
+}
+.divCopyright{
+    position: relative;
+	float: left;
+	width: 100%;
+}
+.divFooterContent{
+    margin: 20px;
+}
+.divFooterMenuLinks{
+    margin: 5px;
+	margin-right: 35px;
+	position: relative;
+	float: left;
+}
+.divFooterMenuLinks a{
+    font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-weight: normal;
+}
+
+/** GLOBAL TABS **/
+.tabs410{
+    width:410px;
+    background: url(../assets/images/tabs410.png) no-repeat;
+}
+.tabs410L{
+    width:410px;
+    background: url(../assets/images/tabs410L.png) no-repeat;
+}
+.tabs240{
+    width:240px;
+    background: url(../assets/images/tabs240.png) no-repeat;
+}
+ul.tabGlobal{
+    list-style:none;
+    margin:0 !important;
+    padding:0;
+    height:39px;
+    width:410px;
+}
+ul.tabGlobal li {
+    float:left;
+    text-indent:0;
+    padding:0;
+    margin:0 !important;
+    list-style-image:none !important;
+}
+ul.tabGlobal li a {
+    font-size:12px;
+	font-weight:bold;
+    display:block;
+    height: 11px;
+    text-align:center;
+    text-decoration:none;
+    color:#fff;
+    padding:13px 0 15px 0;
+    margin:0px;
+    position:relative;
+}
+ul.tabGlobal li a:hover {
+	color:#ddd;
+}
+
+/** GLOBAL TEXT BOX WIDTH **/
+.textboxEat {width:130px;}
+.textboxEat2 {width:100px;}
+.textboxNotes {width:600px;}
+.textboxDatePicker{
+    width:80px;
+	position:relative;
+	top:-8px; font-family:Georgia; color:#3e3e3e; font-style:italic; text-align:center; border: none; cursor:pointer;
+}
+
+/** GLOBAL MEMBER DROPDOWN BOX **/
+#memberNav{
+    margin: 0;
+	position: absolute;
+	float: right;
+	top: -12px;
+	left: -25px;
+	float: right;
+	padding: 7px 6px 0;
+	width: 100%;
+	height: 209;
+	line-height: 100%;
+	text-align:right;
+}
+#memberNav li{
+    margin: 0 5px;
+	padding: 0 0 8px;
+	float: right;
+	position: relative;
+	list-style: none;
+}
+/* main level link */
+#memberNav a{
+    font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding:  8px 20px;
+	margin: 0;
+}
+#memberNav a:hover{
+    color: #000;
+}
+/* sub levels link hover */
+#memberNav ul li:hover a, #memberNav li:hover li a{
+    background: none;
+	border: none;
+	color: #000;
+}
+#memberNav ul a:hover{
+    background: url(../images/member_gradient.png) repeat-x 0 -100px !important;
+	color: #777 !important;
+}
+/* dropdown */
+#memberNav li:hover > ul{
+    display: block;
+}
+/* level 2 list */
+#memberNav ul{
+    display: none;
+	margin: 0;
+	padding: 0;
+	width: 158px;
+	position: absolute;
+	top: 35px;
+	left: 15px;
+	background-image:url(../images/member_bg.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	padding: 19px 10px 10px 5px;
+	font-weight: normal;
+	line-height: 6px;
+	text-align:left;
+}
+#memberNav ul li{
+    float: none;
+	margin: 0;
+	padding: 0;
+}
+#memberNav ul a{
+    font-weight: normal;
+}
+#hr{
+    height:16px;
+}
+#member_bottom{
+    background: none;
+}
+/* rounded corners of first and last link */
+#memberNav ul li:first-child > a{
+    }
+#memberNav ul li:last-child > a {
+}
+/* clearfix */
+#memberNav:after{
+    content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#memberNav{
+    display: inline-block;
+} 
+html[xmlns] #memberNav {
+	display: block;
+}
+
+* html #memberNav{
+    height: 1%;
+}
+
+/** GLOBAL NAV **/
+#nav{
+    margin: 0;
+	padding: 7px 2px 0;
+	background-repeat:no-repeat;
+	height: 13px;
+	line-height: 100%;
+}
+#nav li{
+    position: absolute;
+	top: -7px;
+	left: -6px;
+	margin: 0 0px;
+	padding: 0 0 8px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+/* main level link */
+#nav a{
+    font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding:  6px 0 14px 0;
+	width: 90px;
+	margin: 0;
+}
+#nav a:hover{
+    color: #eee;
+}
+/* main level link hover */
+
+#body_home #nav-home a,
+#body_nutrition #nav-nutrition a,
+#body_fitness #nav-fitness a,
+#body_tools #nav-tools a,
+#body_training #nav-training a,
+#body_community #nav-community a,
+#body_wellness #nav-wellness a,
+#body_more #nav-more a{
+    background: url(../images/topMenu_current.png);
+	background-repeat:no-repeat;
+	color: fff;
+}
+/* sub levels link hover */
+#nav ul li:hover a, #nav li:hover li a{
+    background: url(../images/shim.gif) repeat-x 0 -100px !important;
+	border: none;
+	width: 120px;
+	color: #000;
+}
+#nav ul a:hover{
+    background: url(../images/gradient.png) repeat-x 0 -100px !important;
+	color: #777 !important;
+}
+/* dropdown */
+#nav li:hover > ul{
+    display: block;
+}
+/* level 2 list */
+#nav ul{
+    display: none;
+	margin: 0;
+	padding: 10px 15px 10px 12px;
+	width: 100px;
+	position: absolute;
+	top: 33px;
+	left: 0;
+	background: #ddd url(../images/gradient.png) repeat-x 0 0;
+	border: solid 1px #b4b4b4;
+}
+#nav ul li{
+    float: none;
+	margin: 0;
+	padding: 0;
+}
+#nav ul a{
+    font-weight: normal;
+	text-shadow: 0 1px 0 #fff;
+}
+
+/** TAB 1 **/
+.tab1 div {clear:left; padding-left:15px; width:656px; text-align:left;}
+.tab1 ul{
+    float:left;
+	background:url(/assets/images/tab2_bottomLine.png);
+	background-repeat:no-repeat;
+	background-position:40px 0px;
+	position: relative;
+	left: -40px;
+	width:656px;
+}
+.tab1 li {float:left; list-style:none;}
+.tab1 li a {display:block; width:136px; padding:4px 0 4px 14px; height:15px; color:#fff; text-decoration:none;}
+.tab1 li a:hover {color:#eee;}
+.tab1 li a.selected {color:#fff;}
+
+/** TAB 2 **/
+.nanotab2 {width:656px; text-align:left;}
+.tab2 div {clear:left;}
+.tab2 ul{
+    float:left;
+	background:url(/assets/images/tab2_bottomLine.png);
+	background-repeat:no-repeat;
+	background-position:40px 0px;
+	position: relative;
+	left: -40px;
+	width:656px;
+}
+.tab2 li {float:left; list-style:none;}
+.tab2 li a {display:block; width:136px; padding:4px 0 4px 14px; height:15px; color:#fff; text-decoration:none;}
+.tab2 li a:hover {color:#eee;}
+.tab2 li a.selected {color:#fff;}
+.nanotab2 div {display:none; padding-left:15px;}

@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** TRAINING CSS ****/
+
+/* Index */
+
+.divCurrentProgress{
+    width: 350px;
+	position: relative;
+	float: left;
+}
+.divTrainingMenu{
+    width: 551px;
+	position: relative;
+	float: right;
+	right: 10px;
+}
+.divTrainingContent{
+    background:url('/assets/images/training_content_bg.png') no-repeat;
+	width: 901px;
+	height: 320px;
+	position: relative;
+	left: 10px;
+}
+.divMyCurrentProgress
+{
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 48px;
+}
+.divTrainingHomeMenu
+{
+	position: relative;
+	float: right;
+	width: 500px;
+	height: 80px;
+	text-align: right:
+}
+.divTrainingHomeFeature
+{
+	position: relative;
+	float: left;
+	left: -8px;
+	width: 901px;
+	height: 340px;
+}
+
+#trainingLouMsg
+{
+	font-size: 20px;
+	color: #6e6e6e;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#trainingLouMsgLou
+{
+	font-size: 12px;
+	color: #777777;
+	font-style:italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.divUpNext
+{
+	position: relative;
+	float: left;
+	background-image:url(../images/training_upnext.png);
+	width: 299px;
+	height: 265px;
+}
+.divAlerts
+{
+	position: relative;
+	float: left;
+	background-image:url(../images/training_alerts.png);
+	width: 300px;
+	height: 265px;
+}
+.divMessages
+{
+	position: relative;
+	float: left;
+	background-image:url(../images/training_messages.png);
+	width: 301px;
+	height: 265px;
+}
+.divUpNextContent
+{
+	position: relative;
+	float: left;
+	width: 276px;
+	height: 207px;
+	margin: 10px;
+	margin-top: 45px;
+}
+.divAlertsContent
+{
+	position: relative;
+	float: left;
+	width: 276px;
+	height: 207px;
+	margin: 10px;
+	margin-top: 45px;
+}
+.divMessagesContent
+{
+	position: relative;
+	float: left;
+	width: 276px;
+	height: 207px;
+	margin: 10px;
+	margin-top: 45px;
+}
+#alertsDate
+{
+	font-size: 36px;
+	color: #27a1ac;
+	font-style:italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#alertsMeeting
+{
+	font-size: 12px;
+	color: #4d4c4c;
+	font-style:italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}

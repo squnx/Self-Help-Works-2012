@@ -1,0 +1,10 @@
+/** CALENDAR **/
+.divCalendar
+{
+	position: relative;
+    float: left;
+	background-image:url(../images/calendar_bg.png);
+	background-repeat: no-repeat;
+	width: 901px;
+	height: 751px;
+}

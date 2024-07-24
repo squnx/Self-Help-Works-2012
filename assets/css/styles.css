@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+	color: #333333;
+	margin-top: 0px;
+}
+h1
+{
+	color: #494c4b;
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+#h1
+{
+	color: #494c4b;
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+h2
+{
+	color: #27a1ac;
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+#h2
+{
+	color: #27a1ac;
+	font-size: 14px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+h3
+{
+	color: #396;
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	text-transform: uppercase;
+}
+#h3
+{
+	color: #396;
+	font-size:12px;
+	font-weight:bold;
+	font-style:italic;
+	text-transform: uppercase;
+}
+h4
+{
+	color: #396;
+	font-size:12px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+h4
+{
+	color: #396;
+	font-size:12px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+a:link
+{
+	color: #0e88af;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #606060;
+}
+a:hover
+{
+	color: #339966;
+	text-decoration: underline;
+}
+a:active
+{
+	color: #EEE;
+}
+.center
+{
+    text-align: center;
+}
+
+/*** Embedded Fonts ***/
+@font-face {
+    font-family: "Throw IE";
+	src:url(../fonts/throw_normal.eot);
+}
+@font-face {
+    font-family: "Throw";
+	src:url(../fonts/throw_normal.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Throw IE Bold";
+	src:url(../fonts/throw_bold.eot);
+}
+@font-face {
+    font-family: "Throw Bold";
+	src:url(../fonts/throw_bold.ttf) format("truetype");
+}
+
+/*** Common Text Styles ***/
+#titleThrow
+{
+	font-family: "Throw IE", "Throw", Georgia, "Times New Roman", Times, serif;
+	font-size: 36pt;
+}
+.subTitleThrow
+{
+	font-family: "Throw IE", "Throw", Georgia, "Times New Roman", Times, serif;
+	font-size: 28pt;
+	color: #2dabb6;
+}
+div#commonTitle
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	color: #555555;
+}
+div#commonSubTitle
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #2081d5;
+}
+div#commonAuthor
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #333333;
+}
+div#sectionTitle
+{
+	font-family: "Throw IE Bold", "Throw Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 20pt;
+}
+div#mainSectionTitle
+{
+	font-family: "Throw IE Bold", "Throw Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 30pt;
+}
+#quote
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20pt;
+	font-style:italic;
+	left: 15px;
+}
+#quotationHealth
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20pt;
+	font-style:italic;
+	margin-top: 20px;
+	line-height: 10pt;
+}
+#quotation
+{
+	font-family: "Times New Roman", Times, serif;
+	left: 15px;
+	color: #27a1ac; 
+	font-size: 36px; 
+	line-height: 20pt;
+}
+#body14
+{
+	font-size: 14px;
+}
+.century16Blue
+{
+	font-family: Century Gothic, Verdana, Geneva, sans-serif;
+	color: #198b95; 
+	font-size: 16px; 
+}
+#step{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform:uppercase;
+	color: #444444;
+	font-weight: bold;
+}
+#stepTitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform:uppercase;
+	color: #1d9ca8;
+	font-weight: bold;
+}
+
+/*** Profile ***/
+.divProfileReminder, .divProfileMessage 
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+#memberQuote
+{
+	font-size: 20px;
+	font-color: #333333;
+}
+#thisHeader
+{
+	color: #396;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+/** FOOTER **/
+.divFooterContent
+{
+	color: #777;
+	font-weight: bold;
+}
+.divFooterContent a
+{
+	color: #FFF;
+	text-decoration:none;
+}
+.divFooterContent a:hover
+{
+	color: #396;
+}
+.divCopyright a
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #666;
+	text-decoration: none;
+}
+.divCopyright a:hover
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #111;
+	text-decoration: none;
+}
+.divCopyright #copyright
+{
+	font-size: 7pt;
+	color: #666;
+	text-decoration: none;
+}
+.bottomFooterText p
+{
+	font-size: 8pt;
+	color: #666;
+}
+
+

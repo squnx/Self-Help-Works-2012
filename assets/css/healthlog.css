@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** HEALTH LOG CSS ****/
+
+/* Health Log */
+.divHealthlogTitle{
+    width: 250px;
+	position: relative;
+	float: left;
+}
+.divHealthlogMenu{
+    width: 651px;
+	position: relative;
+	float: right;
+	right: 10px;
+}
+.divHealthlogContent{
+    background:url('/assets/images/wellness_content_bg.png') no-repeat;
+	width: 880px;
+	height: 410px;
+	position: relative;
+	left: 10px;
+}
+
+/* Overview */
+#myHealthGoals{
+	font-size: 11pt;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	line-height: 19pt;
+}
+.divProfile{
+	background-image:url(../images/health_profile.png);
+	height: 336px;
+	width: 294px;
+	position: relative;
+	float: left;
+	margin-top:-30px;
+}
+.divProfileContent{
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 120px;
+	margin: 0px;
+	margin-top: 205px;
+	margin-left: 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.divQuote{
+	background-image:url(../images/quote_small.png);
+	height: 186px;
+	width: 295px;
+	position: relative;
+	float: left;
+	top: -15px;
+}
+.divQuoteContent{
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 130px;
+	margin: 0px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.divOverview{
+	background-image:url(../images/health_box_overview.png);
+	height: 227px;
+	width: 297px;
+	position: relative;
+	float: left;
+}
+.divOverviewContent{
+	position: relative;
+	float: left;
+	width: 173px;
+	height: 150px;
+	margin: 0px;
+	margin-top: 75px;
+	margin-left: 120px;
+}
+.divRecommended{
+	background-image:url(../images/health_box_recommended.png);
+	height: 219px;
+	width: 297px;
+	position: relative;
+	float: left;
+	top: 15px;
+}
+.divRecommendedContent{
+	position: relative;
+	float: left;
+	width: 276px;
+	height: 130px;
+	margin: 0px;
+	margin-top: 45px;
+}

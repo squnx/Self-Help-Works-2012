@@ -1,0 +1,104 @@
+.sb_wrapper{
+	margin:0;
+	padding:0;
+	background-image:url(/assets/images/nutrition_recipe_search_box.png);
+	background-repeat:no-repeat;
+	position: absolute;
+	top:86px;
+	left:218px;
+	width:455px;
+	z-index:2;
+}
+.sb_wrapper input[type="text"],
+ul.sb_dropdown{
+	position: relative;
+	top:-8px;
+	left:7px;
+	border:1px solid #fff;
+	background: #e1e1e1;
+	font-size:18px;
+	font-family:Georgia;
+	outline:none;
+	padding:6px 15px 6px 20px;
+	text-shadow:1px 1px 1px #fff;
+	width:345px;
+	height:35px;
+	float:left;
+	margin:3px 0px;
+}
+ul.sb_dropdown{
+	position: relative;
+	left:3px;
+	float:left;
+	list-style:none;
+	width:438px;
+	height:255px;
+	padding:6px 5px;
+	-moz-border-radius:0px 0px 10px 10px;
+	-webkit-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+ul.sb_dropdown li{
+	font-size:12px;
+	line-height:32px;
+	height:32px;
+	float:left;
+	width:50%;
+}
+ul.sb_dropdown li input[type="checkbox"]{
+	float:left;
+	margin:7px 4px 0 5px;
+}
+ul.sb_dropdown li.sb_filter{
+	width:426px;
+	border:1px solid #f9f9f9;
+	clear:both;
+	background: #ddd;
+	font-size:12px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#444;
+	height:16px;
+	line-height:16px;
+	padding:5px;
+	-moz-box-shadow:0px 0px 2px #777;
+	-webkit-box-shadow:0px 0px 3px #555 inset;
+	-box-shadow:0px 0px 3px #555 inset;
+
+}
+span.sb_up,
+span.sb_down{
+	position:absolute;
+	top:60px;
+	left:360px;
+	width:87px;
+	height:23px;
+	background-position:center center;
+	background-repeat: no-repeat;
+	z-index:10;
+	
+}
+span.sb_up{
+	background-image:url(/assets/images/shim.gif);
+}
+span.sb_down{
+	background-image:url(/assets/images/nutrition_recipe_filter.png);
+}
+input.sb_search{
+	position:absolute;
+	top:5px;
+	left:393px;
+	background:url(/assets/images/nutrition_recipe_search.png);
+	height:47px;
+	width:52px;
+	float:left;
+	border:none;
+	margin:3px 0px;
+	outline:none;
+	cursor:pointer;
+}
+input.sb_search:hover{
+	background-color:#fff;
+}

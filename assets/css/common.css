@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**** COMMON CSS ****/
+
+/* Layout CSS overrides */
+#pushDownAndRight
+{
+	width: 200px;
+	margin-top: 50px;
+	padding: 2px;
+}
+
+/* Styless CSS Overrides */
+#commonTitle
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+}
+.body14
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+	color: #333333;
+	margin-top: 0px;
+	line-height: 15pt;
+}
+#searchResultNumber
+{
+	font-family: "Throw IE", "Throw", Tahoma, Geneva, sans-serif;
+    font-size: 18pt;
+	color: #2081d5;
+}
+#searchInstead
+{
+	font-family: "Throw IE", "Throw", Tahoma, Geneva, sans-serif;
+    font-size: 14pt;
+	color: #656464;
+}
+#searchInsteadFor
+{
+	font-family: "Throw IE", "Throw", Tahoma, Geneva, sans-serif;
+    font-size: 14pt;
+	color: #2081d5;
+}
+
+/* Common Header */
+.divCommonHeader
+{
+	position: relative;
+	float: left;
+	padding-right: 15px;
+}
+div#divDate
+{
+	position: relative;
+	float: left;
+	width: 130px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	vertical-align: top;
+}
+#date
+{
+	vertical-align: top;
+}
+div#divComments
+{
+	position: relative;
+	float: left;
+	left: 15px;
+	width: 120px;
+	vertical-align:top;
+}
+div#divComments a, #backToTop a
+{
+	font-weight: normal;
+	vertical-align:top;
+}
+div#divTags
+{
+	position: relative;
+	float: right;
+	width: 300px;
+	vertical-align: top;
+}
+div#divTags a
+{
+	text-transform: uppercase;
+	font-weight:normal;
+	vertical-align:top;
+}
+
+/* Common Bottom */
+.divCommonBottom
+{
+	position: relative;
+	float: left;
+	width: 100%
+}
+#backToTop
+{
+	text-align: right;	
+}
+#backToTop a
+{
+	color: #333;
+	font-weight: normal;
+}
+div#divTagsBottom
+{
+	position: relative;
+	float: left;
+	width: 300px;
+	vertical-align: top;
+}
+div#divTagsBottom a
+{
+	text-transform: uppercase;
+	font-weight:normal;
+	vertical-align:top;
+}
+
+/* SlideShow */
+.divSlideShow
+{
+	position: relative;
+	float: left;
+	top: 10px;
+	width: 653px;
+	height: 465px;
+}
+.divSlideShowQuote
+{
+	position: relative;
+	float: left;
+	background-image:url(../images/quote_smaller.png);
+	width: 653px;
+	height: 104px;
+	top: -17px;
+}
+#divSlideShowQuoteContent
+{
+	position: relative;
+	float: left;
+	width: 630px;
+	height: 75px;
+	font-family: century gothic;
+	color: #333333;
+	font-size: 12px;
+	padding: 8px;
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
+
+/* Comments */
+.divCommentsHeader
+{
+	background-image:url(../images/comment_nav_bar.png);
+	width: 636px;
+	height: 61px;
+	position: relative;
+	float: left;
+}
+div#divComment
+{
+	postition: relative;
+	float: left;
+	width: 636px;
+}
+div#divCommentFooter
+{
+	postition: relative;
+	float: left;
+}
+div#divCommentStatus
+{
+	postition: relative;
+	float: left;
+	margin-top: 15px;
+}
+#divCommentStatus a
+{	color: #2081d5;
+}
+#divCommentStatus a:visited
+{	color: #7777777;
+}
+#divCommentStatus a:hover
+{	color: #333333;
+}
+#divCommentStatus a:active
+{	color: #EEEEEE;
+}
+.divPostAComment
+{
+	postition: relative;
+	float: left;
+	width: 100%;
+}
+
+/* Collections */
+.divCollectionBigElement
+{
+	postition: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.divCollectionSmallElement
+{
+	postition: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+
+/* Video */
+.divVideo
+{
+	postition: relative;
+	float: left;
+}
+.divVideoQuote
+{
+	position: relative;
+	float: left;
+	background-image:url(../images/quote_notick.png);
+	width: 659px;
+	height: 94px;
+}
+#divVideoQuoteContent
+{
+	position: relative;
+	float: left;
+	width: 630px;
+	height: 75px;
+	font-family: century gothic;
+	color: #333333;
+	font-size: 12px;
+	padding: 8px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
+
+/* Favorites */
+#topMenu
+{
+	width: 619px; 
+	length:45px;
+}
+
+/* Tools */
+/* 3 Columns */
+.div3col1
+{	width: 20%;	position: relative;	float: left;
+}
+.div3col2
+{	width: 60%;	position: relative;	float: left; text-align: left;
+}
+.div3col3
+{	width: 20%;	position: relative;	float: right; text-align: left;
+}
